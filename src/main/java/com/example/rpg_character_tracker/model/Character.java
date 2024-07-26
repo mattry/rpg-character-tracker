@@ -58,6 +58,10 @@ public class Character {
         return charId;
     }
 
+    public void setId(Long charId) {
+        this.charId = charId;
+    }
+
     public void setCharacterName(String characterName) {
         this.characterName = characterName;
     }
